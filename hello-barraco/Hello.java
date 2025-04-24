@@ -18,6 +18,13 @@ public class Hello {
         // Stampiamo la data di nascita
         System.out.println("Your birth date is: " + birthDate);
 
+        // Chiediamo che squadra tifi
+        System.out.print("Which football team do you support? ");
+        String team = scanner.nextLine();
+
+        // Risposta con "Forza" e il nome della squadra
+        System.out.println("Forza " + team + "!");
+
         // Chiudiamo lo scanner
         scanner.close();
     }
