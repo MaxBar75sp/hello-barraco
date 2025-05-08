@@ -16,13 +16,13 @@ public class Hello {
         System.out.println(); // A capo dopo la stampa
 
         // Parte aggiunta: stampa "Hello Fabio!" con Vector
-        System.out.println("Hello Fabio!");
+        System.out.println("Hello Marco!");
 
         Vector<Character> lettere = new Vector<>();
-        lettere.add('f');
+        lettere.add('m');
         lettere.add('a');
-        lettere.add('b');
-        lettere.add('i');
+        lettere.add('r');
+        lettere.add('c');
         lettere.add('o');
 
         for (Character lettera : lettere) {
